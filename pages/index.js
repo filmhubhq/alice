@@ -26,6 +26,13 @@ export default function Home() {
         </p>
 
         <p className={styles.description}>
+          Named after pioneer director{' '}
+          <a href="https://www.google.com/search?client=firefox-b-1-d&q=Alice+Guy-Blach%C3%A9">
+            Alice Guy-Blaché
+          </a>.
+        </p>
+
+        <p className={styles.stream}>
           Stream on
         </p>
 
