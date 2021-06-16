@@ -34,7 +34,7 @@
 }
 
 .title {
-  margin: 0 0 1em;
+  margin: 0 0 3em;
 }
 
 .title,
@@ -51,7 +51,8 @@
 
 .description {
   margin-bottom: 5rem;
-  line-height: 1.em;
+  line-height: 1.5em;
+  color: #aaa;
 }
 
 .description a {
