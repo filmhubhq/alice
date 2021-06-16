@@ -47,10 +47,10 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://filmhub.com?utm_source=alice&utm_medium=web&utm_campaign=alice"
-        >
-          Filmmaker? Submit via
+        <a href="https://filmhub.com?utm_source=alice&utm_medium=web&utm_campaign=alice">
+          <span>
+            Filmmaker?&nbsp;Submit&nbsp;via{' '}
+          </span>
           <span className={styles.logo}>
             <Image src="/filmhub-dark.png" alt="Filmhub Logo" width={1200/9} height={128/9} />
           </span>
