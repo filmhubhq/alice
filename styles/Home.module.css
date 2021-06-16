@@ -1,6 +1,6 @@
 .container {
   min-height: 100vh;
-  padding: 0 2em;
+  padding: 2em 2em 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,12 +34,6 @@
   padding-bottom: 10px;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
 .title {
   margin: 0 0 1em;
   line-height: 1.15;
@@ -47,14 +41,21 @@
 }
 
 .title,
-.description {
+.description,
+.tagline {
   text-align: center;
 }
 
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
+.tagline {
+  font-size: 2.0rem;
+  color: rgb(135,166,246);
+  margin-bottom: 5rem;
 }
+
+/* .description {
+  line-height: 1;
+  font-size: 1.5rem;
+} */
 
 .grid {
   display: flex;

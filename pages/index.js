@@ -21,6 +21,10 @@ export default function Home() {
           />
         </div>
 
+        <p className={styles.tagline}>
+          Stories told through a female lens.
+        </p>
+
         <p className={styles.description}>
           Stream on
         </p>
