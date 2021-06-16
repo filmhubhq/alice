@@ -14,10 +14,10 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.title}>
           <Image
-            src="/popsy.png"
-            alt="Popsy Logo"
-            width={400}
-            height={258/2}
+            src="/alice_color.png"
+            alt="Alice Logo"
+            width={1920/4}
+            height={940/4}
           />
         </div>
 
@@ -26,12 +26,21 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://plex.tv" className={styles.card}>
+          <a href="https://www.xumo.tv/channel/9999300/alice-movies" className={styles.card}>
             <Image
-              src="/plex.png"
-              alt="Plex Logo"
+              src="/xumo.png"
+              alt="Xumo Logo"
               width={151}
-              height={55}
+              height={34}
+            />
+          </a>
+
+          <a href="https://struum.com/sf/D66535DC-0CDA-4155-ACA0-45195905B8C6;origin=8F11A40C-96C3-4A01-A634-78E049AF1880" className={styles.card}>
+            <Image
+              src="/struum.png"
+              alt="Struum Logo"
+              width={181}
+              height={34}
             />
           </a>
         </div>
@@ -39,9 +48,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://filmhub.com?utm_source=popsy&utm_medium=web&utm_campaign=popsy"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="https://filmhub.com?utm_source=alice&utm_medium=web&utm_campaign=alice"
         >
           Filmmaker? Submit via&nbsp;
           <span className={styles.logo}>

@@ -67,6 +67,7 @@
 
 .card {
   margin: 1rem;
+  width: 260px;
   padding: 1.5rem 2.5rem;
   text-align: center;
   background-color: #eee;
@@ -78,7 +79,7 @@
 .card:hover,
 .card:focus,
 .card:active {
-  background-color: rgb(235,144,63);
+  background-color: #7ea7ff;
 }
 
 .card h2 {
