@@ -46,7 +46,7 @@ export default function Home() {
             />
           </a>
 
-          <a href="https://struum.com/sf/D66535DC-0CDA-4155-ACA0-45195905B8C6;origin=8F11A40C-96C3-4A01-A634-78E049AF1880" className={styles.card}>
+          <a href="https://struum.com" className={styles.card}>
             <Image
               src="/struum.png"
               alt="Struum Logo"
